@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Comfortaa", cursive;
+}
+
+.nav {
+  font-size: 1rem;
+  background-color: black;
+}
+
+.nav__head-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0.5rem;
+  float: right;
+  text-align: center;
+}
+
+.nav__head-list-item:first-child {
+  float: left;
+}
+
+.nav__head-list-item a {
+  text-decoration: none;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
